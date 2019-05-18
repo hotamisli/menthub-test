@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="section-nav-horizontal">
+        <nav class="uk-navbar-container horizontal uk-box-shadow-small" uk-navbar="mode: click">
+
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <!-- <a class="uk-navbar-item uk-logo"><img src="images/menthub.PNG" width="110px" height="150px;" alt=""></a> -->
+                    </li>
+                    <li style="padding-left:5%;">
+                        <a>
+                            <form class="uk-search uk-search-navbar">
+                                <span uk-search-icon></span>
+                                <input class="uk-search-input" type="search" placeholder="Search...">
+                            </form>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+
+                    <li>
+                        <a class="uk-navbar-item" style="font-size:36px; "> <i class="fas fa-bell"></i></a>
+                    </li>
+                    <li>
+                        <a class="uk-navbar-item"><img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg"> Saliha H.<span uk-icon="icon:  triangle-down"></span></a>
+                        <div uk-dropdown="mode: click;">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Sign Out</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <div class="section-2">
+        <div class="uk-child-width" uk-grid>
+            <div class="uk-width-1-6 ">
+                <div class="uk-navbar-container uk-padding-small uk-padding-remove-top vertical uk-box-shadow-large">
+                    <ul class="uk-nav uk-nav-default">
+                        <li><a class="uk-navbar-item" href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                        <li>
+                            <a class="uk-navbar-item" href="report.html"> <i class="fas fa-file-alt"></i> Report</a>
+                        </li>
+                        <li  class="uk-active">
+                            <a class="uk-navbar-item" href="messages.html"> <i class="fas fa-envelope"></i> Messages</a>
+                        </li>
+                        <li>
+                            <a class="uk-navbar-item" href="tasks.html"> <i class="fas fa-tasks"></i> Tasks</a>
+                        </li>
+                        <li>
+                            <a class="uk-navbar-item" href="settings.html"> <i class="fas fa-cog"></i> Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-container uk-container-xsmall uk-margin uk-width-5-6" uk-grid>
+                <div class="uk-width-1-3">
+                    <h3>Chats</h3>
+                    <form class="uk-search uk-search-default uk-width-1-1">
+                        <span uk-search-icon></span>
+                        <input class="uk-search-input" type="search" placeholder="Search...">
+                    </form>
+                    <div class="recent-chats">
+                            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                                    <a><img class="uk-border-circle" src="/images/avatar.jpg" width="35px">
+                                            Elliot </a>
+                                <p class="uk-margin-remove">Please send me the documents.<p>
+                            </div>
+                        </div>
+                        <div class="recent-chats">
+                                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                                        <a><img class="uk-border-circle" src="/images/avatar.jpg" width="35px">
+                                            Sarah </a>
+                                    <p class="uk-margin-remove">You are right.<p>
+                                </div>
+                            </div>
+                            <div class="recent-chats">
+                                    <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                                            <a><img class="uk-border-circle" src="/images/avatar.jpg" width="35px">
+                                                Roberta </a>
+                                        <p class="uk-margin-remove">Meeting starts at 9 am.<p>
+                                    </div>
+                                </div>
+                                <div class="recent-chats" >
+                                        <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                                                <a><img class="uk-border-circle" src="/images/avatar.jpg" width="35px">
+                                                   John </a>
+                                            <p class="uk-margin-remove">Yes, Thank you.<p>
+                                        </div>
+                                </div>
+                        
+                </div>
+                <div class="uk-width-2-3">
+                    <h3>Elliot</h3>
+                    <p style="background-color:#D3D3D3; color: black; width: 200px; border-radius: 10px; margin-bottom: 0;">Hello </p>
+                    <span style="font-size:12px;">8:23 am</span> 
+                   
+                        <p style="background-color: #89CFF0; color: black; width: 200px; border-radius: 10px; float: right; margin-bottom: 0;">Hi.. Whats up?</p>
+                    <!-- <span style="font-size:12px; float:right">8:26 am</span>  -->
+                    
+                    <p style="background-color:#D3D3D3; color: black; width: 200px; border-radius: 10px; margin-bottom: 0;">Are you coming tomorrow? </p>
+                    <span style="font-size:12px;">8:23 am</span> 
+                    
+                    <p style="background-color: #89CFF0; color: black; width: 200px; border-radius: 10px; float: right; margin-bottom: 0;">No, I can't make it.. Sorry</p>
+                    <!-- <span style="font-size:12px; float:right">8:26 am</span>  -->
+                
+                   
+                           <div class="uk-margin" style="top: 42%; position: relative;" uk-grid>
+                            <div class="uk-inline uk-width-1-1">
+                                <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: link"></a>
+                                <button class="uk-form-icon uk-form-icon-flip" style="color: #66b266; font-size: 26px;"><i class="far fa-paper-plane"></i></button>
+                                <span class="uk-form-icon" uk-icon="icon: happy" style="font-size: 32px;"></span>
+                                <input class="uk-input" type="text" placeholder="Type message...">
+                            </div>
+                        </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>
