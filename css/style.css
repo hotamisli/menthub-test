@@ -27,10 +27,10 @@ body.body {
 .uk-navbar-container ul li.uk-active a {
     color: #00204a;
 }
-hr{
+/* hr{
     border-color: #efbbff;
     background-color: #efbbff;
-}
+} */
 .uk-navbar-container ul li a {
     /* padding-top: 15px;
             padding-bottom: 15px;
