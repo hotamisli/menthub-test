@@ -4,11 +4,12 @@
 }
 
 html,
-body {
+body.body {
     width: 100% !important;
     background-color: #f4f5f7;
     overflow: hidden;
 }
+
 
 .uk-navbar-container {
     background-color: #ffffff !important;
@@ -26,7 +27,10 @@ body {
 .uk-navbar-container ul li.uk-active a {
     color: #00204a;
 }
-
+hr{
+    border-color: #efbbff;
+    background-color: #efbbff;
+}
 .uk-navbar-container ul li a {
     /* padding-top: 15px;
             padding-bottom: 15px;
@@ -89,4 +93,51 @@ body {
 }
 .uk-width-1-3 .recent-chats a:hover{
     text-decoration: none;
+}
+
+html, body#white-bg{
+background-color: #7FFFD4;
+}
+
+.nav-section .uk-navbar-right .login{
+    background-color: #1D2951;
+    color: #fff;
+    border-radius: 25px;
+    width: 130px;
+    margin-right: 50px;
+}
+.section-main .text{
+    color: #1D2951; 
+    font-size: 32px;
+padding-left: 200px;
+padding-top: 100px;
+}
+.section-main .text-right{
+    color: #fff;
+    font-weight: 600;
+    font-size: 52px;
+    text-align: center;
+    padding-top: 100px;
+}
+.section-main .signup{
+    margin-top:3%;
+}
+.section-main .signup a.mentee{  
+    
+    font-weight: 400;
+    border-radius: 20px;
+    margin-right:20px;
+    background-color: #fff;
+    color:  #FA7e5c;
+    font-size: 20px;
+    border-color: #FA7e5c;
+}
+
+.section-main .signup a.mentor{  
+    background-color: #FA7e5c;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 20px;
+    margin-left:20px;
 }
